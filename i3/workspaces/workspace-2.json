@@ -1,0 +1,52 @@
+{
+	"percent" : 0.5,
+	"type" : "con",
+	"nodes" : [
+		{
+			"border" : "none",
+			"name" : "dev-terminal",
+			"percent" : 0.5,
+			"type" : "con",
+			"swallows" : [
+				{
+					"instance": "^dev$",
+					"class": "^URxvt$"
+				}
+			]
+		}
+	]
+}
+
+{
+	"layout" : "splitv",
+	"percent" : 0.5,
+	"type" : "con",
+	"nodes" : [
+		{
+			"border" : "none",
+			"name" : "dev-terminal",
+			"percent" : 0.5,
+			"type" : "con",
+			"swallows" : [
+				{
+					"instance": "^dev$",
+					"class": "^URxvt$"
+				}
+			]
+		},
+		{
+			"border" : "none",
+			"name" : "dev-terminal",
+			"percent" : 0.5,
+			"type" : "con",
+			"swallows" : [
+				{
+					"instance": "^dev$",
+					"class": "^URxvt$"
+				}
+			]
+		}
+	]
+}
+
+
